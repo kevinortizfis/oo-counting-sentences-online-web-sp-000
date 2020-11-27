@@ -24,6 +24,6 @@ class String
   end
 
   def count_sentences
-    self.count('\b(\.)|\b(\?)|\b(\!)')
+    self.split('\b(\.)|\b(\?)|\b(\!)')
   end
 end
