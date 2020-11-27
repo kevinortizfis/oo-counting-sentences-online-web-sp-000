@@ -25,7 +25,7 @@ class String
 
   def count_sentences
     flip = self.split('\b(\.)|\b(\?)|\b(\!)')
-    flip.count(.)
+    flip.count
     flip
   end
 end
