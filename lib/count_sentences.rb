@@ -26,6 +26,5 @@ class String
   def count_sentences
     flip = self.split(/(\w*(\.|\?|\!))/)
     flip.count(".")+flip.count("?")
-    binding.pry
   end
 end
